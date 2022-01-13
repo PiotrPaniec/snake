@@ -1,0 +1,2 @@
+uzytkownik2:haslo2:0
+uzytkownik3:haslo3:0
