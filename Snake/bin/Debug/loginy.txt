@@ -1,0 +1,4 @@
+kuba:haslo:39
+piotrek:haslo:12
+kuba1:haslo:102
+kuba3:haslo:6
