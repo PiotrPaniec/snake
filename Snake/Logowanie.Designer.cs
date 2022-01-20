@@ -28,123 +28,123 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Login = new System.Windows.Forms.Label();
+            this.wpiszlogin = new System.Windows.Forms.TextBox();
+            this.wpiszhaslo = new System.Windows.Forms.TextBox();
+            this.Haslo = new System.Windows.Forms.Label();
+            this.pytanie = new System.Windows.Forms.Label();
+            this.Zarejestruj = new System.Windows.Forms.Button();
+            this.info = new System.Windows.Forms.Label();
+            this.wstecz = new System.Windows.Forms.Button();
+            this.Zalogujsie = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Login
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(214, 116);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Login ";
+            this.Login.AutoSize = true;
+            this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Login.Location = new System.Drawing.Point(214, 116);
+            this.Login.Name = "Login";
+            this.Login.Size = new System.Drawing.Size(82, 29);
+            this.Login.TabIndex = 0;
+            this.Login.Text = "Login ";
             // 
-            // textBox1
+            // wpiszlogin
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(350, 109);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(343, 36);
-            this.textBox1.TabIndex = 1;
+            this.wpiszlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wpiszlogin.Location = new System.Drawing.Point(350, 109);
+            this.wpiszlogin.Name = "wpiszlogin";
+            this.wpiszlogin.Size = new System.Drawing.Size(343, 36);
+            this.wpiszlogin.TabIndex = 1;
             // 
-            // textBox2
+            // wpiszhaslo
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox2.Location = new System.Drawing.Point(350, 190);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(343, 36);
-            this.textBox2.TabIndex = 2;
+            this.wpiszhaslo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wpiszhaslo.Location = new System.Drawing.Point(350, 190);
+            this.wpiszhaslo.Name = "wpiszhaslo";
+            this.wpiszhaslo.Size = new System.Drawing.Size(343, 36);
+            this.wpiszhaslo.TabIndex = 2;
             // 
-            // label2
+            // Haslo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(214, 190);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 29);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Hasło ";
+            this.Haslo.AutoSize = true;
+            this.Haslo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Haslo.Location = new System.Drawing.Point(214, 190);
+            this.Haslo.Name = "Haslo";
+            this.Haslo.Size = new System.Drawing.Size(85, 29);
+            this.Haslo.TabIndex = 3;
+            this.Haslo.Text = "Hasło ";
             // 
-            // label3
+            // pytanie
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(345, 331);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Nie masz konta?";
+            this.pytanie.AutoSize = true;
+            this.pytanie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.pytanie.Location = new System.Drawing.Point(345, 331);
+            this.pytanie.Name = "pytanie";
+            this.pytanie.Size = new System.Drawing.Size(157, 25);
+            this.pytanie.TabIndex = 4;
+            this.pytanie.Text = "Nie masz konta?";
             // 
-            // button1
+            // Zarejestruj
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(350, 359);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 61);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Zarejestruj sie ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Zarejestruj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Zarejestruj.Location = new System.Drawing.Point(350, 359);
+            this.Zarejestruj.Name = "Zarejestruj";
+            this.Zarejestruj.Size = new System.Drawing.Size(152, 61);
+            this.Zarejestruj.TabIndex = 5;
+            this.Zarejestruj.Text = "Zarejestruj sie ";
+            this.Zarejestruj.UseVisualStyleBackColor = true;
+            this.Zarejestruj.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label4
+            // info
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Lime;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(214, 286);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 25);
-            this.label4.TabIndex = 6;
+            this.info.AutoSize = true;
+            this.info.BackColor = System.Drawing.Color.Lime;
+            this.info.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.info.ForeColor = System.Drawing.Color.Red;
+            this.info.Location = new System.Drawing.Point(214, 286);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(0, 25);
+            this.info.TabIndex = 6;
             // 
-            // button2
+            // wstecz
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(12, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 38);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "<--";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.wstecz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wstecz.Location = new System.Drawing.Point(12, 12);
+            this.wstecz.Name = "wstecz";
+            this.wstecz.Size = new System.Drawing.Size(75, 38);
+            this.wstecz.TabIndex = 7;
+            this.wstecz.Text = "<--";
+            this.wstecz.UseVisualStyleBackColor = true;
+            this.wstecz.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // Zalogujsie
             // 
-            this.button3.Location = new System.Drawing.Point(350, 248);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 35);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Zaloguj sie";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Zalogujsie.Location = new System.Drawing.Point(350, 248);
+            this.Zalogujsie.Name = "Zalogujsie";
+            this.Zalogujsie.Size = new System.Drawing.Size(115, 35);
+            this.Zalogujsie.TabIndex = 8;
+            this.Zalogujsie.Text = "Zaloguj sie";
+            this.Zalogujsie.UseVisualStyleBackColor = true;
+            this.Zalogujsie.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form2
+            // Logowanie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Zalogujsie);
+            this.Controls.Add(this.wstecz);
+            this.Controls.Add(this.info);
+            this.Controls.Add(this.Zarejestruj);
+            this.Controls.Add(this.pytanie);
+            this.Controls.Add(this.Haslo);
+            this.Controls.Add(this.wpiszhaslo);
+            this.Controls.Add(this.wpiszlogin);
+            this.Controls.Add(this.Login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form2";
+            this.Name = "Logowanie";
             this.Text = "Logowanie";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
@@ -154,14 +154,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label Login;
+        private System.Windows.Forms.TextBox wpiszlogin;
+        private System.Windows.Forms.TextBox wpiszhaslo;
+        private System.Windows.Forms.Label Haslo;
+        private System.Windows.Forms.Label pytanie;
+        private System.Windows.Forms.Button Zarejestruj;
+        private System.Windows.Forms.Label info;
+        private System.Windows.Forms.Button wstecz;
+        private System.Windows.Forms.Button Zalogujsie;
     }
 }

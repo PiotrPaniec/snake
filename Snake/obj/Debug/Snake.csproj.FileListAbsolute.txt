@@ -74,26 +74,3 @@ C:\Users\user\Desktop\snake poprawny\Snake\obj\Debug\Snake.Menuadmin.resources
 C:\Users\user\Desktop\snake poprawny\Snake\obj\Debug\Snake.Zarzadzanieadmin.resources
 C:\Users\user\Desktop\snake poprawny\Snake\obj\Debug\Snake.Skrzynka.resources
 C:\Users\user\Desktop\snake poprawny\Snake\obj\Debug\Snake.Form1.resources
-D:\drive\snake\Snake\bin\Debug\Snake.exe.config
-D:\drive\snake\Snake\bin\Debug\Snake.exe
-D:\drive\snake\Snake\bin\Debug\Snake.pdb
-D:\drive\snake\Snake\obj\Debug\Snake.csproj.AssemblyReference.cache
-D:\drive\snake\Snake\obj\Debug\Snake.csproj.SuggestedBindingRedirects.cache
-D:\drive\snake\Snake\obj\Debug\Snake.Form1.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Menustart.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Gra.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Gameover.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Zarzadzanieuser.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Logowanie.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Rejestracja.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Rankingi.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Menuuser.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Zglaszanieuser.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Menuadmin.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Zarzadzanieadmin.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Skrzynka.resources
-D:\drive\snake\Snake\obj\Debug\Snake.Properties.Resources.resources
-D:\drive\snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
-D:\drive\snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
-D:\drive\snake\Snake\obj\Debug\Snake.exe
-D:\drive\snake\Snake\obj\Debug\Snake.pdb

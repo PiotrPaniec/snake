@@ -37,7 +37,7 @@ namespace Snake
                 i++;
                
 
-                richTextBox1.Text = tablicazgloszenia[i];
+                wiadomosci.Text = tablicazgloszenia[i];
             }
         }
 
@@ -49,7 +49,7 @@ namespace Snake
                 zazalenia admin = new zazalenia("admin1");
                 string[] tablicazgloszenia = admin.wyswietlanie();
                
-                richTextBox1.Text = tablicazgloszenia[i];
+                wiadomosci.Text = tablicazgloszenia[i];
             }
         }
 
@@ -63,14 +63,14 @@ namespace Snake
                 i++;
 
 
-                richTextBox1.Text = tablicazgloszenia[i];
+                wiadomosci.Text = tablicazgloszenia[i];
             }
             else
             {
                 i--;
 
 
-                richTextBox1.Text = tablicazgloszenia[i];
+                wiadomosci.Text = tablicazgloszenia[i];
             }
         }
     }

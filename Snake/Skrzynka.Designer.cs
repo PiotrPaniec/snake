@@ -28,84 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Domenu = new System.Windows.Forms.Button();
+            this.wiadomosci = new System.Windows.Forms.RichTextBox();
+            this.dalej = new System.Windows.Forms.Button();
+            this.wstecz = new System.Windows.Forms.Button();
+            this.usun = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button2
+            // Domenu
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(23, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 38);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "<--";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Domenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Domenu.Location = new System.Drawing.Point(23, 12);
+            this.Domenu.Name = "Domenu";
+            this.Domenu.Size = new System.Drawing.Size(75, 38);
+            this.Domenu.TabIndex = 8;
+            this.Domenu.Text = "<--";
+            this.Domenu.UseVisualStyleBackColor = true;
+            this.Domenu.Click += new System.EventHandler(this.button2_Click);
             // 
-            // richTextBox1
+            // wiadomosci
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(23, 72);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(741, 356);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "";
+            this.wiadomosci.Location = new System.Drawing.Point(23, 72);
+            this.wiadomosci.Name = "wiadomosci";
+            this.wiadomosci.Size = new System.Drawing.Size(741, 356);
+            this.wiadomosci.TabIndex = 9;
+            this.wiadomosci.Text = "";
             // 
-            // button1
+            // dalej
             // 
-            this.button1.Location = new System.Drawing.Point(659, 450);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 29);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Dalej";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.dalej.Location = new System.Drawing.Point(659, 450);
+            this.dalej.Name = "dalej";
+            this.dalej.Size = new System.Drawing.Size(75, 29);
+            this.dalej.TabIndex = 10;
+            this.dalej.Text = "Dalej";
+            this.dalej.UseVisualStyleBackColor = true;
+            this.dalej.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button3
+            // wstecz
             // 
-            this.button3.Location = new System.Drawing.Point(497, 450);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 29);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Wstecz";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.wstecz.Location = new System.Drawing.Point(497, 450);
+            this.wstecz.Name = "wstecz";
+            this.wstecz.Size = new System.Drawing.Size(75, 29);
+            this.wstecz.TabIndex = 11;
+            this.wstecz.Text = "Wstecz";
+            this.wstecz.UseVisualStyleBackColor = true;
+            this.wstecz.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // usun
             // 
-            this.button4.Location = new System.Drawing.Point(578, 450);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 29);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "Usuń";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.usun.Location = new System.Drawing.Point(578, 450);
+            this.usun.Name = "usun";
+            this.usun.Size = new System.Drawing.Size(75, 29);
+            this.usun.TabIndex = 12;
+            this.usun.Text = "Usuń";
+            this.usun.UseVisualStyleBackColor = true;
+            this.usun.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Form9
+            // Skrzynka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(800, 485);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.button2);
-            this.Name = "Form9";
+            this.Controls.Add(this.usun);
+            this.Controls.Add(this.wstecz);
+            this.Controls.Add(this.dalej);
+            this.Controls.Add(this.wiadomosci);
+            this.Controls.Add(this.Domenu);
+            this.Name = "Skrzynka";
             this.Text = "Skrzynka odbiorcza";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
-        public System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Domenu;
+        public System.Windows.Forms.RichTextBox wiadomosci;
+        private System.Windows.Forms.Button dalej;
+        private System.Windows.Forms.Button wstecz;
+        private System.Windows.Forms.Button usun;
     }
 }

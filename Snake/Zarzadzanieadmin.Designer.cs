@@ -28,130 +28,130 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.usunbutton = new System.Windows.Forms.Button();
+            this.loginusuwanego = new System.Windows.Forms.TextBox();
+            this.nowehaslolabel = new System.Windows.Forms.Label();
+            this.nowehaslo = new System.Windows.Forms.Label();
+            this.nowyloginwpisz = new System.Windows.Forms.TextBox();
+            this.nowehaslowpisz = new System.Windows.Forms.TextBox();
+            this.zmienbutton = new System.Windows.Forms.Button();
+            this.loginzmienianego = new System.Windows.Forms.TextBox();
+            this.wstecz = new System.Windows.Forms.Button();
+            this.komunikat = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // usunbutton
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(21, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(347, 41);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Usuń użytkownika o loginie";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.usunbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.usunbutton.Location = new System.Drawing.Point(21, 70);
+            this.usunbutton.Name = "usunbutton";
+            this.usunbutton.Size = new System.Drawing.Size(347, 41);
+            this.usunbutton.TabIndex = 0;
+            this.usunbutton.Text = "Usuń użytkownika o loginie";
+            this.usunbutton.UseVisualStyleBackColor = true;
+            this.usunbutton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // loginusuwanego
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(394, 74);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(372, 32);
-            this.textBox1.TabIndex = 1;
+            this.loginusuwanego.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.loginusuwanego.Location = new System.Drawing.Point(394, 74);
+            this.loginusuwanego.Name = "loginusuwanego";
+            this.loginusuwanego.Size = new System.Drawing.Size(372, 32);
+            this.loginusuwanego.TabIndex = 1;
             // 
-            // label1
+            // nowehaslolabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(242, 316);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 26);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nowy Login";
+            this.nowehaslolabel.AutoSize = true;
+            this.nowehaslolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nowehaslolabel.Location = new System.Drawing.Point(242, 316);
+            this.nowehaslolabel.Name = "nowehaslolabel";
+            this.nowehaslolabel.Size = new System.Drawing.Size(126, 26);
+            this.nowehaslolabel.TabIndex = 2;
+            this.nowehaslolabel.Text = "Nowy Login";
             // 
-            // label2
+            // nowehaslo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(236, 253);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 26);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Nowe hasło ";
+            this.nowehaslo.AutoSize = true;
+            this.nowehaslo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nowehaslo.Location = new System.Drawing.Point(236, 253);
+            this.nowehaslo.Name = "nowehaslo";
+            this.nowehaslo.Size = new System.Drawing.Size(132, 26);
+            this.nowehaslo.TabIndex = 3;
+            this.nowehaslo.Text = "Nowe hasło ";
             // 
-            // textBox2
+            // nowyloginwpisz
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox2.Location = new System.Drawing.Point(394, 316);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(372, 32);
-            this.textBox2.TabIndex = 4;
+            this.nowyloginwpisz.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nowyloginwpisz.Location = new System.Drawing.Point(394, 316);
+            this.nowyloginwpisz.Name = "nowyloginwpisz";
+            this.nowyloginwpisz.Size = new System.Drawing.Size(372, 32);
+            this.nowyloginwpisz.TabIndex = 4;
             // 
-            // textBox3
+            // nowehaslowpisz
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox3.Location = new System.Drawing.Point(394, 253);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(372, 32);
-            this.textBox3.TabIndex = 5;
+            this.nowehaslowpisz.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nowehaslowpisz.Location = new System.Drawing.Point(394, 253);
+            this.nowehaslowpisz.Name = "nowehaslowpisz";
+            this.nowehaslowpisz.Size = new System.Drawing.Size(372, 32);
+            this.nowehaslowpisz.TabIndex = 5;
             // 
-            // button2
+            // zmienbutton
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(21, 139);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(347, 78);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Zmień hasło lub login użytkownika o loginie";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.zmienbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.zmienbutton.Location = new System.Drawing.Point(21, 139);
+            this.zmienbutton.Name = "zmienbutton";
+            this.zmienbutton.Size = new System.Drawing.Size(347, 78);
+            this.zmienbutton.TabIndex = 6;
+            this.zmienbutton.Text = "Zmień hasło lub login użytkownika o loginie";
+            this.zmienbutton.UseVisualStyleBackColor = true;
+            this.zmienbutton.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox4
+            // loginzmienianego
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox4.Location = new System.Drawing.Point(394, 162);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(372, 32);
-            this.textBox4.TabIndex = 7;
+            this.loginzmienianego.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.loginzmienianego.Location = new System.Drawing.Point(394, 162);
+            this.loginzmienianego.Name = "loginzmienianego";
+            this.loginzmienianego.Size = new System.Drawing.Size(372, 32);
+            this.loginzmienianego.TabIndex = 7;
             // 
-            // button3
+            // wstecz
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(21, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 38);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "<--";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.wstecz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wstecz.Location = new System.Drawing.Point(21, 12);
+            this.wstecz.Name = "wstecz";
+            this.wstecz.Size = new System.Drawing.Size(75, 38);
+            this.wstecz.TabIndex = 8;
+            this.wstecz.Text = "<--";
+            this.wstecz.UseVisualStyleBackColor = true;
+            this.wstecz.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label3
+            // komunikat
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(293, 380);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 25);
-            this.label3.TabIndex = 9;
+            this.komunikat.AutoSize = true;
+            this.komunikat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.komunikat.ForeColor = System.Drawing.Color.Red;
+            this.komunikat.Location = new System.Drawing.Point(293, 380);
+            this.komunikat.Name = "komunikat";
+            this.komunikat.Size = new System.Drawing.Size(0, 25);
+            this.komunikat.TabIndex = 9;
             // 
-            // Form8
+            // Zarzadzanieadmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
-            this.Name = "Form8";
+            this.Controls.Add(this.komunikat);
+            this.Controls.Add(this.wstecz);
+            this.Controls.Add(this.loginzmienianego);
+            this.Controls.Add(this.zmienbutton);
+            this.Controls.Add(this.nowehaslowpisz);
+            this.Controls.Add(this.nowyloginwpisz);
+            this.Controls.Add(this.nowehaslo);
+            this.Controls.Add(this.nowehaslolabel);
+            this.Controls.Add(this.loginusuwanego);
+            this.Controls.Add(this.usunbutton);
+            this.Name = "Zarzadzanieadmin";
             this.Text = "Zarządzanie kontami ";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,15 +160,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button usunbutton;
+        private System.Windows.Forms.TextBox loginusuwanego;
+        private System.Windows.Forms.Label nowehaslolabel;
+        private System.Windows.Forms.Label nowehaslo;
+        private System.Windows.Forms.TextBox nowyloginwpisz;
+        private System.Windows.Forms.TextBox nowehaslowpisz;
+        private System.Windows.Forms.Button zmienbutton;
+        private System.Windows.Forms.TextBox loginzmienianego;
+        private System.Windows.Forms.Button wstecz;
+        private System.Windows.Forms.Label komunikat;
     }
 }

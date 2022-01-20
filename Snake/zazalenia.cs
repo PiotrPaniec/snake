@@ -50,14 +50,14 @@ namespace Snake
             if ((elementdousuwania - 1) < dlugosc)
             {
                 int przechowanie = elementdousuwania;
-                for (int i = elementdousuwania; i < (dlugosc-2); i++)
+                for (int i = elementdousuwania; i < (dlugosc-3); i++)
                 {
                     words[przechowanie] = words[przechowanie + 1];
                     przechowanie++;
                 }
                 words[dlugosc-2] = "";
                 string tekst = "";
-                 for(int i=0; i < dlugosc - 1;i++)
+                 for(int i=0; i < dlugosc ;i++)
                 {
                     if (words[i] != "")
                     {

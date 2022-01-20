@@ -49,27 +49,27 @@ namespace Snake
                  odczyt uzytkownik = new odczyt(label1.Text, Int32.Parse(label3.Text));
                 uzytkownik.zamianarekordku(score);
                 Gameover form11 = new Gameover();
-                form11.label2.Text = uzytkownik.getlogin();
-                form11.label3.Text = uzytkownik.getrekord().ToString();
-                form11.label6.Text = "Snake hit the wall";
+                form11.logingameover.Text = uzytkownik.getlogin();
+                form11.rekordgameover.Text = uzytkownik.getrekord().ToString();
+                form11.whydead.Text = "Snake hit the wall";
                 Random rnd = new Random();
                 int losowanie = rnd.Next(1, 5);
                 if (losowanie == 1)
                 {
-                    form11.label8.Text = "Teletubisie i spółka";
+                    form11.sponsor.Text = "Teletubisie i spółka";
 
                 }
                 else if (losowanie == 2)
                 {
-                    form11.label8.Text = "Piwo to przyszlosc";
+                    form11.sponsor.Text = "Piwo to przyszlosc";
                 }
                 else if (losowanie == 3)
                 {
-                    form11.label8.Text = "Fundacja: pomoż studentom przetrwać sesje";
+                    form11.sponsor.Text = "Fundacja: pomoż studentom przetrwać sesje";
                 }
                 else if (losowanie == 4)
                 {
-                    form11.label8.Text = "RKS robotniczy klub sportowy ";
+                    form11.sponsor.Text = "RKS robotniczy klub sportowy ";
                 }
                 form11.Show();
                 this.Hide();
@@ -150,27 +150,27 @@ namespace Snake
                 odczyt uzytkownik = new odczyt(label1.Text, Int32.Parse(label3.Text));
                 uzytkownik.zamianarekordku(score);
                 Gameover form11 = new Gameover();
-                form11.label2.Text = uzytkownik.getlogin();
-                form11.label3.Text = uzytkownik.getrekord().ToString();
-                form11.label6.Text = "Snake hit his  body";
+                form11.logingameover.Text = uzytkownik.getlogin();
+                form11.rekordgameover.Text = uzytkownik.getrekord().ToString();
+                form11.whydead.Text = "Snake hit his  body";
                 Random rnd = new Random();
                 int losowanie = rnd.Next(1, 5);
                 if(losowanie ==1)
                 {
-                    form11.label8.Text = "Teletubisie i spółka";
+                    form11.sponsor.Text = "Teletubisie i spółka";
 
                 }
                 else if (losowanie == 2)
                 {
-                    form11.label8.Text = "Piwo to przyszlosc";
+                    form11.sponsor.Text = "Piwo to przyszlosc";
                 }
                 else if (losowanie == 3)
                 {
-                    form11.label8.Text = "Fundacja: pomoż studentom przetrwać sesje";
+                    form11.sponsor.Text = "Fundacja: pomoż studentom przetrwać sesje";
                 }
                 else if (losowanie == 4)
                 {
-                    form11.label8.Text = "RKS robotniczy klub sportowy ";
+                    form11.sponsor.Text = "RKS robotniczy klub sportowy ";
                 }
 
 

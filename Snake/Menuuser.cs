@@ -30,8 +30,8 @@ namespace Snake
         {
             Zglaszanieuser form6 = new Zglaszanieuser();
             form6.Show();
-            form6.label2.Text = this.label2.Text;
-            form6.label3.Text = this.label3.Text;
+            form6.login.Text = this.uzytkownikmenu.Text;
+            form6.rekordint.Text = this.rekorduser.Text;
             this.Hide();
         }
 
@@ -39,22 +39,19 @@ namespace Snake
         {
             Gra form10 = new Gra();
             form10.Show();
-            form10.label1.Text = this.label2.Text;
-            form10.label3.Text = this.label3.Text;
+            form10.label1.Text = this.uzytkownikmenu.Text;
+            form10.label3.Text = this.rekorduser.Text;
             this.Hide();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void button4_Click(object sender, EventArgs e)
         {
             Zarzadzanieuser form12 = new Zarzadzanieuser();
             form12.Show();
-            form12.label2.Text = this.label2.Text;
-            form12.label3.Text = this.label3.Text;
+            form12.login.Text = this.uzytkownikmenu.Text;
+            form12.rekordint.Text = this.rekorduser.Text;
             this.Hide();
         }
     }

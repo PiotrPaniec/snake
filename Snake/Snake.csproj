@@ -52,7 +52,7 @@
     <Compile Include="ankieta.Designer.cs">
       <DependentUpon>ankieta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ankietaklasa.cs" />
     <Compile Include="zazalenia.cs" />
     <Compile Include="Gra.cs">
       <SubType>Form</SubType>

@@ -28,39 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.zapytanie = new System.Windows.Forms.Label();
+            this.oknodowpisaniaankiety = new System.Windows.Forms.RichTextBox();
+            this.wysylanieankiety = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // zapytanie
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "czemu usuwasz konto?";
+            this.zapytanie.AutoSize = true;
+            this.zapytanie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.zapytanie.Location = new System.Drawing.Point(13, 13);
+            this.zapytanie.Name = "zapytanie";
+            this.zapytanie.Size = new System.Drawing.Size(216, 25);
+            this.zapytanie.TabIndex = 0;
+            this.zapytanie.Text = "czemu usuwasz konto?";
             // 
-            // richTextBox2
+            // oknodowpisaniaankiety
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(18, 77);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(770, 317);
-            this.richTextBox2.TabIndex = 2;
-            this.richTextBox2.Text = "";
+            this.oknodowpisaniaankiety.Location = new System.Drawing.Point(18, 77);
+            this.oknodowpisaniaankiety.Name = "oknodowpisaniaankiety";
+            this.oknodowpisaniaankiety.Size = new System.Drawing.Size(770, 317);
+            this.oknodowpisaniaankiety.TabIndex = 2;
+            this.oknodowpisaniaankiety.Text = "";
             // 
-            // button1
+            // wysylanieankiety
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(713, 403);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Wyślij";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.wysylanieankiety.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wysylanieankiety.Location = new System.Drawing.Point(713, 403);
+            this.wysylanieankiety.Name = "wysylanieankiety";
+            this.wysylanieankiety.Size = new System.Drawing.Size(75, 35);
+            this.wysylanieankiety.TabIndex = 3;
+            this.wysylanieankiety.Text = "Wyślij";
+            this.wysylanieankiety.UseVisualStyleBackColor = true;
+            this.wysylanieankiety.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -68,9 +68,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.wysylanieankiety);
+            this.Controls.Add(this.oknodowpisaniaankiety);
+            this.Controls.Add(this.zapytanie);
             this.Name = "Form1";
             this.Text = "Ankieta";
             this.ResumeLayout(false);
@@ -80,8 +80,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label zapytanie;
+        private System.Windows.Forms.RichTextBox oknodowpisaniaankiety;
+        private System.Windows.Forms.Button wysylanieankiety;
     }
 }

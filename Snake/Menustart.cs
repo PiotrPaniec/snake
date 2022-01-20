@@ -68,7 +68,7 @@ namespace Snake
                 if (tab[i] == Int32.Parse(words[1]))
                 {
 
-                    form4.listBox1.Items.Add(s2[x]);
+                    form4.ranking.Items.Add(s2[x]);
 
                     s2[x] = "nwm:-1";
 

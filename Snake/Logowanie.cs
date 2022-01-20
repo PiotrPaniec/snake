@@ -33,15 +33,15 @@ namespace Snake
 
         private void button3_Click(object sender, EventArgs e)
         {
-            odczyt uzytkownik = new odczyt(textBox1.Text, textBox2.Text);
+            odczyt uzytkownik = new odczyt(wpiszlogin.Text, wpiszhaslo.Text);
 
             if (uzytkownik.sprawdzanie())
             {
                // uzytkownik.zamianarekordku(69);
                 Menuuser form5 = new Menuuser();
                 form5.Show();
-                form5.label2.Text = uzytkownik.getlogin();
-                form5.label3.Text = uzytkownik.getrekord().ToString();
+                form5.uzytkownikmenu.Text = uzytkownik.getlogin();
+                form5.rekorduser.Text = uzytkownik.getrekord().ToString();
 
                 this.Hide();
             }
@@ -53,7 +53,7 @@ namespace Snake
             }
             else
             {
-                label4.Text = "wpisales zle haslo lub login";
+                info.Text = "wpisales zle haslo lub login";
             }
         }
 

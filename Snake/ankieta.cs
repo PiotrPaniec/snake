@@ -19,7 +19,7 @@ namespace Snake
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ankietaklasa ankieta = new ankietaklasa(richTextBox2.Text);
+            ankietaklasa ankieta = new ankietaklasa(oknodowpisaniaankiety.Text);
             ankieta.dodajwiadomosc();
             Menustart menu1 = new Menustart();
             menu1.Show();

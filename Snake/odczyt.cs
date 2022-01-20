@@ -19,9 +19,9 @@ namespace Snake
             haslo = haslo1;
 
         }
-       public odczyt(string login1,int rekord1)
+       public odczyt(string login2,int rekord1)
         {
-            login = login1;
+            login = login2;
             rekord = rekord1;
         }
        public bool sprawdzanie()
@@ -273,10 +273,12 @@ namespace Snake
             i = 0;
             while(i<dlugosc )
             {
+                
                 s3[i] = s2[i];
                 i++;
             }
             File.WriteAllLines(path, s3);
+            
         }
 
     }

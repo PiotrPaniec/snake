@@ -32,7 +32,7 @@ namespace Snake
             string[] tablicazgloszenia = admin.wyswietlanie();
             int dlugosc = tablicazgloszenia.Length;
            
-                form9.richTextBox1.Text=tablicazgloszenia[0];
+                form9.wiadomosci.Text=tablicazgloszenia[0];
             
             form9.Show();
             this.Hide();

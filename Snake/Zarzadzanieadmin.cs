@@ -19,9 +19,9 @@ namespace Snake
 
         private void button2_Click(object sender, EventArgs e)
         {
-            odczyt uzytkownikdozmiany = new odczyt(textBox4.Text, "haslo");
-            uzytkownikdozmiany.zamianaadmin(textBox3.Text, textBox2.Text);
-            label3.Text = "Wprowadzono zmiany ";
+            odczyt uzytkownikdozmiany = new odczyt(loginzmienianego.Text, "haslo");
+            uzytkownikdozmiany.zamianaadmin(nowehaslowpisz.Text, nowyloginwpisz.Text);
+            komunikat.Text = "Wprowadzono zmiany ";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -33,9 +33,9 @@ namespace Snake
 
         private void button1_Click(object sender, EventArgs e)
         {
-            odczyt uzytkownikdozmiany = new odczyt(textBox1.Text, "haslo");
+            odczyt uzytkownikdozmiany = new odczyt(loginusuwanego.Text, "haslo");
             uzytkownikdozmiany.usuwanie();
-            label3.Text = "Usunieto uzytkownika ";
+            komunikat.Text = "Usunieto uzytkownika ";
         }
     }
 }

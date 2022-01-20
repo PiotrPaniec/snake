@@ -21,16 +21,16 @@ namespace Snake
         {
             Menuuser form5 = new Menuuser();
             form5.Show();
-            form5.label2.Text = this.label2.Text;
-            form5.label3.Text = this.label3.Text;
+            form5.uzytkownikmenu.Text = this.login.Text;
+            form5.rekorduser.Text = this.rekordint.Text;
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            zazalenia zazalenie = new zazalenia(label2.Text, richTextBox1.Text);
+            zazalenia zazalenie = new zazalenia(login.Text, zglaszanie.Text);
             zazalenie.dodajwiadomosc();
-            label1.Text = "Wiadomość została wysłana";
+            komunikat.Text = "Wiadomość została wysłana";
         }
     }
 }

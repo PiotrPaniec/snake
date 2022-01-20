@@ -21,43 +21,43 @@ namespace Snake
         {
             Menuuser form5 = new Menuuser();
             form5.Show();
-            form5.label2.Text = this.label2.Text;
-            form5.label3.Text = this.label3.Text;
+            form5.uzytkownikmenu.Text = this.login.Text;
+            form5.rekorduser.Text = this.rekordint.Text;
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length != 0) {
-                odczyt uzytkownik = new odczyt(label2.Text, textBox1.Text);
+            if (oldhaslowpisz.Text.Length != 0) {
+                odczyt uzytkownik = new odczyt(login.Text, oldhaslowpisz.Text);
                 if (uzytkownik.sprawdzanie() == true)
                 {
-                    if (textBox2.Text == textBox3.Text)
+                    if (newhaslowpisz.Text == newhaslopowtorz.Text)
                     {
-                        uzytkownik.zamianahaslalubloginu(textBox1.Text, textBox3.Text, textBox4.Text);
-                        label2.Text = uzytkownik.getlogin();
-                        label9.Text = "Wprowadzono zmiany ";
+                        uzytkownik.zamianahaslalubloginu(oldhaslowpisz.Text, newhaslopowtorz.Text, newloginwpisz.Text);
+                        login.Text = uzytkownik.getlogin();
+                        komunikat.Text = "Wprowadzono zmiany ";
                     }
                     else
                     {
-                        label9.Text = "Wprowadzono dwa rózne hasła ";
+                        komunikat.Text = "Wprowadzono dwa rózne hasła ";
                     }
                 }
                 else 
                 {
-                    label9.Text = "Wpisałeś złe hasło ";
+                    komunikat.Text = "Wpisałeś złe hasło ";
                 }
 
              }
             else
             {
-                label9.Text = "Nie wpisałeś starego hasła";
+                komunikat.Text = "Nie wpisałeś starego hasła";
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            odczyt uzytkownik = new odczyt(label2.Text, textBox1.Text);
+            odczyt uzytkownik = new odczyt(login.Text, oldhaslowpisz.Text);
             if (uzytkownik.sprawdzanie() == true)
             {
                 uzytkownik.usuwanie();
@@ -67,7 +67,7 @@ namespace Snake
             }
             else
             {
-                label9.Text = "Wpisałeś złe hasło ";
+                komunikat.Text = "Wpisałeś złe hasło ";
             }
 
         }

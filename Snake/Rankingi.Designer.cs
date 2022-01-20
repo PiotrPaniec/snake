@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.wstecz = new System.Windows.Forms.Button();
+            this.ranking = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // button2
+            // wstecz
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(12, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 38);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "<--";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.wstecz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wstecz.Location = new System.Drawing.Point(12, 12);
+            this.wstecz.Name = "wstecz";
+            this.wstecz.Size = new System.Drawing.Size(75, 38);
+            this.wstecz.TabIndex = 8;
+            this.wstecz.Text = "<--";
+            this.wstecz.UseVisualStyleBackColor = true;
+            this.wstecz.Click += new System.EventHandler(this.button2_Click);
             // 
-            // listBox1
+            // ranking
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 56);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(731, 500);
-            this.listBox1.TabIndex = 9;
+            this.ranking.FormattingEnabled = true;
+            this.ranking.ItemHeight = 16;
+            this.ranking.Location = new System.Drawing.Point(12, 56);
+            this.ranking.Name = "ranking";
+            this.ranking.Size = new System.Drawing.Size(731, 500);
+            this.ranking.TabIndex = 9;
             // 
-            // Form4
+            // Rankingi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(776, 576);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.ranking);
+            this.Controls.Add(this.wstecz);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form4";
+            this.Name = "Rankingi";
             this.Text = "Rankingi ";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
-        public System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button wstecz;
+        public System.Windows.Forms.ListBox ranking;
     }
 }
