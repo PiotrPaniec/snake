@@ -1,6 +1,0 @@
-kuba:haslo:32
-piotrek:haslo:12
-kuba3:haslo:0
-1:1:0
-123:123:7
-1233:123:0
